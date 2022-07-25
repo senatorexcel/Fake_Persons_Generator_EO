@@ -1,0 +1,318 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="try_new_thing" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="754,2486" sap2010:WorkflowViewState.IdRef="try_new_thing_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="76">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="try_new_thing" sap:VirtualizedContainerService.HintSize="476,2421" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Generate a Random Name - Male, Finnish, Finland - Fake Name Generator" sap:VirtualizedContainerService.HintSize="434,2329" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,2113" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="fullName" />
+              <Variable x:TypeArguments="x:String" Name="Address" />
+              <Variable x:TypeArguments="x:String" Name="phoneNumber" />
+              <Variable x:TypeArguments="x:String" Name="companyName" />
+              <Variable x:TypeArguments="x:String" Name="companyRole" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NSelectItem DisplayName="Select Item 'Gender'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Male" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="3">
+                  <x:String>Random</x:String>
+                  <x:String>Male</x:String>
+                  <x:String>Female</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="415, 291, 200, 25" ElementType="DropDown" FriendlyName="'Random'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='Gender' /&gt;" Guid="248ba5de-61e1-4b8b-82eb-d0afc811b77c" InformativeScreenshot="cb4203aaafa90eef75fdbb9b3f547c6f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="356, 292, 50, 17" ElementType="Text" FriendlyName="'Gender'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Gender' check:innerText='Gender' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAAVCAYAAAANfR1FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADMSURBVFhH7ZQBCsMwDAP31/z/DR0eaFyNnTRpGEvJgSGW1AZR6Ot4KLvYauxiq/FXxUopn5lBWEwXcH7BzLtOxbIXz7ywxsx7hotJ8x53+tKI9zUk87h7z/gWi8wMn+WuM33DayMZ7jpzSHexKEct8o0ZmZZPqsWk0fMah75nNBMN/YxLX4xeLWdkPvU7GdHyu38eWUZkPvU7GdHyu4sZUU575Blez/ZaxtAeeeRUTOghjifz/S4iXZr0Voae3z1hsSewi63GLrYWx/EGmmE9QZLGrwYAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item 'Name set'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Finnish" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="37">
+                  <x:String>American</x:String>
+                  <x:String>Arabic</x:String>
+                  <x:String>Australian</x:String>
+                  <x:String>Brazil</x:String>
+                  <x:String>Chechen (Latin)</x:String>
+                  <x:String>Chinese</x:String>
+                  <x:String>Chinese (Traditional)</x:String>
+                  <x:String>Croatian</x:String>
+                  <x:String>Czech</x:String>
+                  <x:String>Danish</x:String>
+                  <x:String>Dutch</x:String>
+                  <x:String>England/Wales</x:String>
+                  <x:String>Eritrean</x:String>
+                  <x:String>Finnish</x:String>
+                  <x:String>French</x:String>
+                  <x:String>German</x:String>
+                  <x:String>Greenland</x:String>
+                  <x:String>Hispanic</x:String>
+                  <x:String>Hobbit</x:String>
+                  <x:String>Hungarian</x:String>
+                  <x:String>Icelandic</x:String>
+                  <x:String>Igbo</x:String>
+                  <x:String>Italian</x:String>
+                  <x:String>Japanese</x:String>
+                  <x:String>Japanese (Anglicized)</x:String>
+                  <x:String>Klingon</x:String>
+                  <x:String>Ninja</x:String>
+                  <x:String>Norwegian</x:String>
+                  <x:String>Persian</x:String>
+                  <x:String>Polish</x:String>
+                  <x:String>Russian</x:String>
+                  <x:String>Russian (Cyrillic)</x:String>
+                  <x:String>Scottish</x:String>
+                  <x:String>Slovenian</x:String>
+                  <x:String>Swedish</x:String>
+                  <x:String>Thai</x:String>
+                  <x:String>Vietnamese</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="415, 369, 200, 25" ElementType="DropDown" FriendlyName="'Finnish'" FullSelectorArgument="&lt;webctrl id='n' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='n' tag='SELECT' type='' class='' aaname='Name set' /&gt;" Guid="157a5a76-0979-4e41-8b67-ce2f44e1943c" InformativeScreenshot="01b01712bc7fa58f0aa2fbbc3a812caf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="341, 370, 65, 17" ElementType="Text" FriendlyName="'Name set'" FullSelectorArgument="&lt;webctrl aaname='Name set' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Name set' tag='LABEL' type='' class='' check:innerText='Name set' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAVCAYAAAAQAyPeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD8SURBVFhH7ZBRCsMwDEN319z/DB0eqNMcRZ4/C34Q6khyoHpdw8aUIphSBFOKYEoRTCmCu5S11uc4Kv9JuP/dSnE/7ryn4f5VlnIKZ/20w3fnswbYUz5TZU9+1tkLfkrBVwUD1rLPO5g54zRQ3Rnlud3qzmylBFjIS6dHAs6fdp1W+ZmulzWVAbKUAEus51kd9phKw6yOwuWUhwPynTmWEmARHn8xg5xzPmBN+RXY4cO6w2VsKQGW+RGeQccHrCm/Q/ctlylLCfAAMjyDjg+ydsooVI61fA8qH/xVSpAfwT0f9piuprxMle34zF3K8GVKEUwpgilFMKVsXNcb1t/V9Z7LmJIAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item 'Country'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Finland" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="31">
+                  <x:String>Australia</x:String>
+                  <x:String>Austria</x:String>
+                  <x:String>Belgium</x:String>
+                  <x:String>Brazil</x:String>
+                  <x:String>Canada</x:String>
+                  <x:String>Cyprus (Anglicized)</x:String>
+                  <x:String>Cyprus (Greek)</x:String>
+                  <x:String>Czech Republic</x:String>
+                  <x:String>Denmark</x:String>
+                  <x:String>Estonia</x:String>
+                  <x:String>Finland</x:String>
+                  <x:String>France</x:String>
+                  <x:String>Germany</x:String>
+                  <x:String>Greenland</x:String>
+                  <x:String>Hungary</x:String>
+                  <x:String>Iceland</x:String>
+                  <x:String>Italy</x:String>
+                  <x:String>Netherlands</x:String>
+                  <x:String>New Zealand</x:String>
+                  <x:String>Norway</x:String>
+                  <x:String>Poland</x:String>
+                  <x:String>Portugal</x:String>
+                  <x:String>Slovenia</x:String>
+                  <x:String>South Africa</x:String>
+                  <x:String>Spain</x:String>
+                  <x:String>Sweden</x:String>
+                  <x:String>Switzerland</x:String>
+                  <x:String>Tunisia</x:String>
+                  <x:String>United Kingdom</x:String>
+                  <x:String>United States</x:String>
+                  <x:String>Uruguay</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="415, 402, 200, 25" ElementType="DropDown" FriendlyName="'Finland'" FullSelectorArgument="&lt;webctrl id='c' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='c' tag='SELECT' type='' class='' aaname='Country' /&gt;" Guid="f77cd384-8efb-4a86-8de0-600351c04d0e" InformativeScreenshot="06fd9dc20989cc2dca5815bf6e34d4a0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="349, 403, 57, 17" ElementType="Text" FriendlyName="'Country'" FullSelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' type='' class='' check:innerText='Country' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD0AAAAVCAYAAAD1neayAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVFhH7Y9RCgMhEEN7V+9/hi35SMlOM1aX2sKODwR9ExnyOAqyS1dhl67CLk1aa2/nX6zYfyqdLVixeJQVuy+XpuvNIurdXR2InrORO3HuVdoNM2L205uo5z3moutl9KhXnJsuneXUfysDXM45MJq9VWmgsyxXuzTIQup/mQEu5xzRWZabLg1m34CO3mVA9C7nnMJ5ljmVJvop+3xlnt0V5+noXUaJ+YgtfQfKle4VBrt0FQqWPo4na89kVxG1tn4AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Generate'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="415, 435, 73, 23" ElementType="Button" FriendlyName="'Generate'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='button red' aaname='Generate' check:text='Generate' /&gt;" Guid="e8df35b5-8852-4980-88b2-d115117ad2c2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAbCAYAAAA53gJaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMJSURBVGhD7ZlBaxNREMd7DgYVK6gX9bsIQlEsgtKLfihBELwJBS9eVFAvfpEETJUmKTZpIGmgIcn4fpvMMnlOks0Sobg78G82OzPvzfx2skvSHSltY3OhTadTmUwmicbjceGkvcPBswVoCuv88L2cPX4qnTv3pVO9WTyFvukfDh68FBqO8cWF9A5e+gsVVPCAiwWXQEuAhbE8O3jhJhZdcIGPgkugMYL9d4duQqmZ4AOnBBr0RqORdPb23eBScwU+cILXDvSGw6F0bhf0pp9VgQ+c4JVA6/f7fmCpBcEpgcYNrtfruUHoNMgzznvxl0W27m3VCid4rYRmN/5UuSaf5/oWhF1mcK3qblIjxrEXs6kyQbMbN67sSjO8Rxxj+C1Ya5y3vjhOgefJX5Ub51lb57O9e8oEDUBqHOt5YDFt1q+TyKua9WPkWP/vsJZalnw1e7FY08v7at5/DMdZ6l0HLhe0+CpZv06iTiHWqN6YH4l8CcUdBZ/1Hxn/unwa/1C5mjQJNPS9cj1ZM877a51wTPy6eonxOKhyQWNRvZ9htinPfkRQgG7XtH7P4nytgXXiC2iNuLj2uB/PNG6Zck+avTK2KSZBx10nwkL1Cs+Tjyww4sgjX41Yu4+3t7ffP5m0+Jw3Ceh4HqOv2LbyEc2paZ69mLqOmubac95+XAzdw1MmaBRnr2BsTMIyP/ebdZOWJz9LXcR6MZxftd9WJg3y3GgZXf0Y2HGmiNiPuO/9nF9J9WlBvOq5PPlZ6iI2jtGn56r9Np6001v33EAWogg2tNLCPH/s0/d2vTgma37WuuIYPe/l2Zxlgk8KTb97njx85AaXmgk+6XdP/vDt/eTNWze41EzwSX/l0N/Tut2utPefuwlFF1zgk/6expNDp6193JTWk2duYlEFD7jolGEL/yMYDAbSbrfl16vX0nqwF25+d92F/nfRN/3DAR5wgQ+cUmiYgoMoo9hsNqXRaEi9XpdarVYY0S990z8c4GGBYSk0DAcjyGeXYJ4WPGaLJvqmfzjAwwITEfkDkcRYtdslRP0AAAAASUVORK5CYII=" InformativeScreenshot="7535260339d8deef68936625c5f2256e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Jarmo Tiihonen'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="511, 502, 540, 19" ElementType="Text" FriendlyName="'Jarmo Tiihonen'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='' /&gt;" Guid="80741dab-d5ce-4a12-b23a-429144ccefff" InformativeScreenshot="861a5b29e6581c64ed3f8f90f537fead.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="351, 502, 121, 137" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl parentid='details' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='details' tag='IMG' type='' class='' aaname='Male' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH0AAACNCAYAAACaEnU8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABVLSURBVHhe7Z0Hs9w0F4a//z/U0EPoEFpIgEBCbwklEAIk9N57793fPGIec1Zob5x7ba137TPzjmSt19Z5Xx1Jlr3e/zWzTc5m0SdoreiffvrpAj777LNRoFSXzz//vP3sk08+acvivuS/+OKLBLfzY7ntd+M+lMVy8hzLcr8fP4tl5McGbanoY4EEI24U2HKFcB8/47uUkfo98/EzwXc41ldffZU++/jjj9v9PAdlH330UXsOkR8r3x4DqJPWim7lRemLqwL1WUZw3IfU/WIZKWJajnDvvPNO2wCMUsoVlTI+i/jyyy8TyMcG6HkA+bg9FlAnbfTdu6TmebeX1VnhSAFivvjii83jjz/eHDp0qLnxxhubO++8s3nyySeb119/PYlIw0BUz8Mx/T6fE+mUc1y34z7L6jIGUD9taaSPCZHMnGDyisu+CvHNN9+kMgR9+umnm8OHDzdXX311c/HFFzeXXXZZs2fPnmb37t3NJZdc0lxzzTVJfI/JMRDfHoDjGOWehxThAXn35fukYwN11FrRY1SA0hdXgVxYoADg66+/bgln226cyH7qqaeaW265pbn00ksTrrjiiuaqq65qceWVV6YU4UkfeOCB5vjx4wnPPvts8+abb6bj0ggYDsCHH36Yzuc5c1jH0merBHXSRh/p1AsxJdkUQeiu33vvvVSGMJYh2oMPPthce+21Kaovv/zyVmAinG0aAHmiHJBHfHoCwD633XZb88gjjzQPP/xwc/fddze33357c//99zcvvfRScey3vtZ9TCiKTuX5QJS+OCQ4p4Ia3THKHW8hmyg8cOBAc8MNN6Rx+ciRI82jjz7a7N+/P4mLYEQ23TfiUoaowG1A3gbgtmBfu39AnmPSiPbu3ZsawquvvtryRqOz/nb5+kLqfm7XBufWqkQ6x14Ghc0BSXyG0HSrb731VvPyyy+nyENsoxERyCuMwvaNeFzyu3btavbt25fq5GUe9abO1B1Qd8r4LPZWqwD10EYhulHgBMpyyHzllVdS10pXe/PNNydhQYzWVcCegJ7m/fffb+cW1F+fyUfh9TNyUwucV1u56BGRMARHeLpxu2pEjmN0SYy+kDequM35mR9QL64Ijh07loSnzlw1UG+6+Nig2SYPcn5qgDpoS8f0WojnlRCiBsKYfUM0JBNZwFm3wsdut08ocNy2jHOTcm7yjPEHDx5sjh49mi4Rv/vuu7YB4xN5G4A+Rg5qgPNqVUTX2RL4XFIAgr/77rvNQw89lGbVkEo0QXjs1iW+FhRcoUkto170QOQZij744IMF4Z2EAn2uDc6rjUZ0yWGb2bjkSrCESzawfBncf7uIx4kpQGi2Sa0jKfW655570uQTfwT+0ahtAJGfGoBrbUH0VQFCIAJCnn/++dRdQqZEQyZ5CJVko2wr8N2dIj8WeRscKXVhyIl1IurvuuuuNAl9++23FxZ0ciFqQmtFt+vpGxzXlm0aywFi061z+XPrrbe2USTJpjn5Y4GNwG3rz/o+VxwsFjHBw0cFx285ssztIcD5tMFFBxxbR3WOvJObb7/9NkUE0UHEGNlAkdcJ1t3lXUTXX3nOhaZcWNYnOK5WJdKJZLcV37HN1s/M1yiBKPMlUscO6m7Xz1Lwc88913z//ffJX2fuciPkZyhwDm1B9KEQRbeMPOV0e6Vu3S5zHYHY+kL+jjvuaF577bXUwEHkQS6A0R8/6xNaFdGBjuq0M1kWNbjtCUlECESZd3sdgQ+Axks3f9NNN6WbQfiP30a7kCd7wCGgDS46TuBo3DbPtewLL7zQXHfddWl1y9kviNGyjrDBMlThBzN61urfeOON1LvhfxQ9Cj8E4F2rIrqIjjF5I+XuGIsvEGR0RNLWETRYQZRbjvDcMIKHGAhR+MhRn6gqOqAr46Ru6zBjOa1fgiDGKHciJGHrCHstQGOmN+Myzjtz8iFKZX2hKDqFQ8CTOpZ7vcqDCIxz3hJV+E0GDYHbwPjNih0z+rhMS++X89cntMFFB7Y0BMcxVt1YtIAAujzIKJG0qaCR82gWPaBCyxGBIW99Q6siOmLrDA9D8NwaguP86S7NSqStO+jdmLzS+OHG3g9+TIeAVkV0HaE182TqRRdd1ApeImUKoNFzj4GVyCj0UF0859Ba0SkcApwQsWnNXJtzy/SCCy5oI9nxnLSEnKxNgBM7eGC1riTQdpEfS/CZVkV0wDU5j0Pdd9997QOGOK7wy1Aibd2BX/hNN89TuwSD3TwBUuKxK6LQEXymDS464KSKzk0VnMV5hM8JmQJig2ZsZ54TxdkJPE4OPtNa0Z1MDAEv1Ri/uAHBeEYXF7v3ZZCgTUL0j/kNq5JOdHeqQy624DOtiuiclOPjHE7SvW+yqF2g7wTAM888kziiN1SgvgH/2oLoQwFnmJXyezFn7lNGbPAMdcxzuGaHJwXaCrmgXcD3tCqiIziTlXvvvbcdx53ITTXa8dvJHA+A8pMsxEH4EocRuaBdwPe0wUVHcBxhvRnn5kj/544bQ5xzmgsvvLA5efJk6trhq8RjH9CqiE7KDwJwjpadExC3pwB7On1nXGd1Dq6Myr7BsbVWdAqHAi0Y0YlyFyZ0fordOxGO30S74Icddu0lDiNyQbuA72lVROekPBzICpQiT1Fskc9nnMyxMFPiL0cuaBfwPW1w0Z25E+mIHp2eMuAA0R3uuA/BUzU5f30BHbRqonOjhTFdhyMBU4RrFW4z9J06daqdzPWNlYjOAoSiTx00eiPdbbjhwUm74r5RFJ3CocBJEd3uXUdjOiVEn8kT9azB8yqVH374ochhH9CqiM5lCBM53t6go5sORS0hXraSR3SepIEnHqEqcbhTcFytiuh0Wbwn5vzzzy8SNCUgNNfl5hGcbe5LEOUIX+Jwp6guOmDxgUjPSZg6EJ5hj5k7PBEgOXd9oCj6kN3KTz/9lGamRDpORqdp6XF7CoADeWAyBy88HVviry8sFX0o/Pzzz+m1HHbvUegpiq7PCM+YDvgN+48//pgmvSUO+4BWRXQinVeKsADBpcnURRd27bw5i4coStz1Ca2K6ExQuF/M67ecwQMEn5ro+mtK78flrN0w0V7isA9oregIU9qxT/AGZsf1KPrUQHeO4MzaCQKekYOfITXg2NqC6EPAkzKuc1ly3nnnJcdt7VMF/jPUXX/99WnplQgv8dcntMFFF7/++mt6lyqRzjqzixJTBILjP5HOogyTt99++y0Fx5Dia9VExymehs0JwHFnsFOBwhPpvOeWx8hYlKE3tCseAtqgotNqnZj88ssv6Q3OPjKF07b4vCFMAcxp8N2rGd4qDWcIn/PYB9BBa0VXoL7B5RopovNwJD9e5DIlJ2FqQHAaPXmEZ5GGntAufghog4qO4IDWi+hctvEaTUTHaSI+J2MKQGx8t8cz4nk40iAZAloV0ckjPBMWXjfiDN7WTjolGOFxQhtvuuQ89gWtF9FLrVPBgZdsgFusZ511Vtvqc0KmAARGeEDeqOemFFxF7krIue4Cvqe1oucH3i48QV6G4H/88Ud6OuScc85pZ+1Tm70b4fgdGz1lRDo85fz1Ba130SOMbvO///57uoWokzg+NdEjjHDzJ06c6BTp24VWTXTAtTo3XniFGBOXKQsOHOLgAT7o3u0VlyHye6bQWtFLJ4goHUSU9o9wP0TnWp3LNlu4MOpF/GzToMjRV/jg6aLTib4TaJ1F7wMsxfJAP3fbzj333JaAksiWbyoQmYkcKeAydqNEj70Bed6ayAw+F3dKogNn74C7bbx/ZuNEJ/3zzz/bu2128ZGIKcDopovXf7b5Jwiu03P++oLWis6KWWnHPoHof/31V3q+m6douONWIiOWbSLw0Us3UsTnLZKsWJZ46wPoq1URnWN7fC7bWJnjhUOM64qs4CIStImIs3YaPyuVOW99YluiK1wJpf1LcH8WafhprqKLTRc6gombeYSna6cnZLJb4m6ngHdtQfSh4JhOnhTjnw5s7Tq/aaLrTw4+YywnRXAuYena4QfRI3d9geNqnSI9P8CZID+GkzlW5rinzKw1ErVpUOQI7zKS0rWzEgc3Rrlc9Ymlog8JnGFxhhTRebEOb6Xw8alNBtEcu3MaAmVcwTC3Ye0CUaqL7km3g9JJhPs4XoG///47Ocqf0G+q6DHCETiWkZ599tnp9ef88S5XNPITOVuGnOOI0v5C60X0LqBCtGIjnm3ei4rzkrNJyLt1x3CGM+4yss0fHcAHVzRdRNsptMFF1xmFpow80c5D/szg6fqIhk1CFFzQq+Erf0fGz7yIbq5k5CZyNAS0TqJTmVJ5V+AIrZm8x8J4txxLkbT+EnHrjig4YuMnP2HiX5fhg27dno/l153yfDporeiccCuUDnIm4Bgx0nGY/2TjEWAmNCXS1hkIHfMIziUqD5Hge+SkL45PB62z6DtBjPJYxm+3mMw5rhvxpOvQ5RvFChxn6EAf8IdtHnNmNVI+ck5KZX1Cqya6eR1jLAP8woOJjcTF1PwYsaxulCO23TnjOJem3FnkEXDmMvhdEnejRI+O6BgNAWMyBzlG+TpEOFBct8nbUBHaP+ZhPYI/N8BnBC/1erWgVRfdbYAxi/VtDDmRNoQxgrrG+ik6ZaRPPPFEWoSyl8Nfxu84r6kNrYroJeA8pPBndNxW9P66hJofM2io5hEdUMYzgPxahchWYEWnEcThria0VnQrMwS8FpUAykgRnUsWHp9iXIcwyUN082OFUU0e4dkG/HU2l2D6ToqvRrll8iAnQ0OrIjrAWdLoJM5j/G2XohtBkhpJHhMUGNFJrTcrcUzaMP1VaEWXk5yPoaFVEV3HaO3mBV0gEx7J8+7T2CPdBmmEKzqLTfxtSeSU63J5iFFuGYhlQ0GrFunLQEPgAX9uPvCwpGLbCCLRYwWCKzqXZ7x8IXKK0LnYq4A2CtExukREhjjTEsFjgg3TSKeMZVafGch9NaJX1QC0lYsOERjr0cx6fYRq7MIjci46cDxfJuwqo15rRV9l98OYR2TwQAFLspAosZI6NtAg7ZUA9eVJIBZjXHWLAsdty2qCc2qjEN0K8Tw8EyGiPRI8ZsRo55ZpnKyR0phN7fLZHgqR1wg+0xZEXwWsFOaPG9dFdKIb0X0mgPfkYfqk0PhZS/StoK1MdJ2XCMwnZCHR8bxE9hhg/UhZTaRrZ16CPwxX+pb7SroqaFVEj85GAugKSRWdZ7/p3iFRMkuEjwGO5whPI+VdOi7C6F8ucqmsFjivVi3SEZYTO2kz5TPyGK+/JmLWoXu3YQp+vMEEDl8c18eEqqJzMqDolrsdP+P6du/evQsz+JzsMYH6IT5Lr/zMOJ+1jwnwq7WiK8BQ8MRRfPIYKYTxWDT3oVmZg9QYSWODwiM64vMXZEZ59HtM0KqIjqggdu2KzjhIGaJz44WuPY7lJcLHAOoYh6GjR48OzuNOoQ0uOgLHcY48YpNHaIDx+mvWrbnb5qzYdIyIdaQBMJHDR6zEwxigVREdYaPQlGGUQRS/V2csp1vPyR0rFB3BmYP4mk99LXGxamjVxnTIQHTANinPjh08eDCR5/30MXfpEa4lAJaLEZ8ZPIavuf9jgNZJdLtohDKfl9G6STFbu/tg5gHH5D2o3DuHNAiTwHUBdaaBsiJHnsjnCSC7eBs4lvMROS0hcl9C6TtdoHWOdL9EigM4ZIs2z2c8HWK5jprn0ShWrQ4dOpTIojtfR8GFEzl6Kbp41hhYVdTgBb/hQ+HhQq6WgX22Quk7XaB1Fh0HSKkwprAAI7UxcAL3Y5sH/HmwwAcgEdvufJ2hDzZcUiZ0vCxIy3nKhSjB/Zeh9J0u0FrRSztF2Do9cWwE5BUZYz8uxRizeXSIWTlCO1FjDKQ7XJfxu4RY9xjx+HbkyJH2yVd4icKDyGtNaJ1FB1ZagRXcMvbhKVCWUw8fPpwIUGzHP4iJkbGuUHBFd2KHr/jJEMYf7MGPRt4AybmtAa2T6FYyVphWTKrRpfErVO4pKzTkIDKEENmWSVQkcd2QN15Fp3EzvuMrE1Vm9AQCvGGrEhxoW4pOBUsgsjXepMAvMffv39+KLSEQYTdoGdEPKXbv6yo+9VboPHUfGzmzet6xw70FrcR3hFyXPtsutFb0KKqI3TkpXySPMTk7duxYutmQi43jOQnk88/dXmfoJ42YVEQf4YY8kzwmtIz3GHzGodF8zncOyrcDbSHSOaAnA+SdkfMZRp773szEFbtEBo7HNMey8nXF6fyxy6d3e+yxx1LQaJFz+GXbMlNsJ4IDbUF0TsBJyduq4kmZmPAfYlR8mdgz/gsaBJyRl7d9+/ald87ELl/+ASb/aiEU8UyhLXTvXmJwIvKkGHm68j179rTRjROA7gunZvwLhQZ060Q5eYU36vmM5+SZE/GDj2gIrx5qgnCm24H2nzGdDzmwrY1lRd6gEMcmKs62eR2c8Q/gRF7kyuCIfCk+8wEiH/HjeJ9jWXlXaK3osWVp/AuDrwehclYYsUFsBDoy4x8gsryYV/w8L788H8gzBbyWRUMsNEEbAzEXsyu0hTHdDzgB15d251ZOB6Jjdl0z/oWCEsEERSw3D58GjDzCNUMAax28OpRFLsd8hEd0e+PtQGtF17ghcuDAgTaSraAobc9YRM6NwkfREdn9zPM5nAMWdoh8elre1kEgYtsVPfbgC2M6lxLcKfLEVryURujIjEUocheO5JLvRPHJs6xLIBL5CIiRGvnOwci77YRPc2jAWtEZS+JSqRWgFVr5GXVAz2D02+MCns7hB5Lcoo6muAhOHsHNA/JF0V1Z88QIzUnJm86ogxjpbCO8ZWjBZV5c2cO4ylJghgLFj8OC1orOgWPLiieLFZpRBwYaEQ8sU3y0YbzngVIjP3b3imxDiNaKrrgemJST2QBm1EMcUkmjNsL9mO1z/57FHcV1TMcQ3cjXWtFdLfIkig5i+Yzhoahuk1d0t4l0oPi8voV7Ijy8giEykU8qtFb0KLIHnsVeLRSbfNQmbgN1ohHwowsXdxA6dvNasXsnpVu3LJ5sxvAoCU2ZiBFPilbuS55lcxZ1EJxop6s/baTnJ3V7xvih8F7abRnpjOnsjPi2HLoLhS+dYMY4oYZEvJd1Po+PLUR6/uVZ7PUEutE7kzKzzxdzthR9xnoBkR2m7aVJeYFTtFZ0W8aM9Qbio6VDNWU82hYf0phF3zAgNkB8U8Tnh6LaLPoEYNRrs+gTAWO7Nos+EcyiTxCz6BPELPoEMYs+QRRF97puxmaieMlW2nHGZkFrRZ9tOjaLPjlrmv8DzUrxFyJWsk4AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[fullName]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Ilmalankuja 9728500 PORI'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="511, 521, 540, 36" FriendlyName="'Ilmalankuja 9728500 PORI'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='details' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='details' tag='DIV' class='adr' /&gt;" Guid="9fb4b20b-8205-4d6e-8b7b-252b92ca1f29" InformativeScreenshot="fa6bbf942a57dd182e016e44786106ef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[Address]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Phone'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="696, 262, 355, 20" FriendlyName="'046 506 3546'" FullSelectorArgument="&lt;webctrl idx='2' isleaf='1' tag='DD' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='DD' class='' aaname='046 506 3546' check:innerText='046 506 3546' /&gt;" Guid="296a16e3-dcd1-45b7-aa4f-0bc032f9db32" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWcAAAAYCAYAAAAmuzwtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ6SURBVHhe7dq/ilNBFMfxvIaPplgrq6BWvoXaq70Ka6uW0XatBLcLpEmRJkUghBCSoxMychznzJ/cO4Yk3w8c9mbOmZlb/QhsBgIAlbbbrWw2G1mv17JarWS5XMpisZD5fC6z2Uym06lMJhMZj8cyGo3kzvMfVGURzgCqEc7ti3AGUI1wbl+EM4Bqh4Qz6hDOAKoRzu0RzgCqEc7tEc4AqhHO7f0TzoPB4E/lWDOlZ+g5XZq1rpXMeHo2nA97vixWr2QvcMoI5/b+So8wTFLhEguf2FpKbjZ2vtbHfXqt9qxwPrYGnCPCuY3hcLh/+p0n+79mqMTW/VrYqw2m1LzV0+u198Uccp6fC+f7eB/gFBDObXQKZ/3Zei6V2mP1/Poh98Xoc0rOtOb7eh/gFBDObRwczuFM2AsrJ7VHP2t+Xe/xVcrao9etvqY/6z2+gHNFOLdxUDjH+not1y+Vus9J9bvcZym9L9cHzgnh3MbB4WyV78dY65bS8/q+z6Lvs8r3Y6x14JQRzm10/oegp3t9hZOfz53X932WVF/3+nof4BQQzm1Ew9kJgyQXLLn52v2OXqs9P3aeFuvrtVw/FPZyn4Fz8T/D+fr6o9y9d39X7tmz1vvkz+9apcxwdlyg+MqJzdTsd/R8bE+q5+T6IT0f25Pra7n9wLm6pHB+/ebtrh48vJLh129F5WZfvHwl795/2J1RKhnOAJBzSeF8c/NdPn3+Ik+ePtuv5rlZt8ftdWeUIpwBdEI4pxHOAI6CcE4jnAEcBeGcRjgDOArCOY1wBnAUlxTO/hcYV48ey8/b26Jys+6d3LM7oxThDKCTS/zm7O8qrW7fnEV+AX+CvAi0olU+AAAAAElFTkSuQmCC" InformativeScreenshot="63a0012e4bcb84e18939e14a754891fb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="511, 262, 170, 20" FriendlyName="'Phone'" FullSelectorArgument="&lt;webctrl idx='4' tag='DT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DT' class='' aaname='Phone' check:innerText='Phone' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAAYCAYAAABjn8aGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADNSURBVHhe7dZtCoNAEIPhntb738AyhZUwjusHWgn7PrBQs/FfKH5mwBDDhSWGC0sMF5YYLiwxXFg6Ndxpmn4HeNsy3DbKfFSVAW9YDVflrOoAb+gON2he/dZM9e41007L1N49xnRpuLmXs6PPmoWtXpOfMa7L/7jqX50qw5hu+cbV/O5OdYDVcPNRVRY0f7oDhN1PBbXV0fzpDhBuH244+9wc6VXvYTyPDDe0rHeX9brVHca1DBdwwnBhieHCEsOFJYYLSwwXlhguDM3zF3ToxuK9wxcAAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Phone'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="696, 425, 355, 20" FriendlyName="'046 506 3546'" FullSelectorArgument="&lt;webctrl idx='2' isleaf='1' tag='DD' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='DD' class='' /&gt;" Guid="414037f5-8044-4aff-b061-4a029acde428" InformativeScreenshot="217e7aaf875689672a5635c6e3929e91.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="511, 425, 170, 20" FriendlyName="'Phone'" FullSelectorArgument="&lt;webctrl idx='4' tag='DT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DT' class='' aaname='Phone' check:innerText='Phone' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAAYCAYAAABjn8aGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADNSURBVHhe7dZtCoNAEIPhntb738AyhZUwjusHWgn7PrBQs/FfKH5mwBDDhSWGC0sMF5YYLiwxXFg6Ndxpmn4HeNsy3DbKfFSVAW9YDVflrOoAb+gON2he/dZM9e41007L1N49xnRpuLmXs6PPmoWtXpOfMa7L/7jqX50qw5hu+cbV/O5OdYDVcPNRVRY0f7oDhN1PBbXV0fzpDhBuH244+9wc6VXvYTyPDDe0rHeX9brVHca1DBdwwnBhieHCEsOFJYYLSwwXlhguDM3zF3ToxuK9wxcAAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[phoneNumber]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Company'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="696, 448, 355, 20" FriendlyName="'Afterthoughts'" FullSelectorArgument="&lt;webctrl idx='14' isleaf='1' tag='DD' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='DD' class='' /&gt;" Guid="69559cab-8f39-40c4-9faa-2f11a0d39230" InformativeScreenshot="8324fc3b63b56ffa0aacc3c62dfcc21a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="511, 448, 170, 20" FriendlyName="'Company'" FullSelectorArgument="&lt;webctrl idx='17' tag='DT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DT' class='' aaname='Company' check:innerText='Company' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAAYCAYAAABjn8aGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVHhe7ddBDsIwDERRTtv736DIC6PBOA3phoz4T6oUj71jNjxOwBDFhSWKC0sUF5YoLixRXFiiuLDUFvc4jo8P2MlbcUclpbzYze3iZna107feXGX61r3Svd7orPvMQp1Dl2Fvr+Ku/Hj1djR/m+l7tE/dnFm+v7lRXYa9LRd3dKd5dzPLun0Y5Un3o9vZTZdhb3bFzbl+uqtqrnPdwYNVcbub2T7UXOe6g4flP2d3b2ZZtw+zm9k+1FznuoOH5eKG1TnMstk+zG66fejyzLp77O+tuEl/1NGPe7W/k+W7flV3E5/uqi7PrLvH/tri/sIvSkRxff1tcSmtN4oLS9sUF1hBcWGJ4sISxYWh83wCWqQpGlzSYP0AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[companyName]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Occupation'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="eae901a2-5add-43b1-8133-63c26fbe5f02" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.fakenamegenerator.com/gen-male-fi-fi.php" DesignTimeRectangle="696, 473, 355, 20" FriendlyName="'Recruiting manager'" FullSelectorArgument="&lt;webctrl idx='15' isleaf='1' tag='DD' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='DD' class='' /&gt;" Guid="67edd383-1b77-486b-b4d2-13e221992ba0" InformativeScreenshot="3a07131e57e3c72e1e32fe41144ff17e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="511, 473, 170, 20" FriendlyName="'Occupation'" FullSelectorArgument="&lt;webctrl idx='18' tag='DT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='DT' class='' aaname='Occupation' check:innerText='Occupation' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK4AAAAYCAYAAABjn8aGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVHhe7dfRSsAwDIVhn3bv/waTCJEsJGtXcfXg/8GgTY6g9Nz4cQKCKC4kUVxIoriQRHEhieJC0r8q7nEcXx/0lcX1B1Z+6Op3V/57cHUpbvewig+u+Dtj3o+K6/PZ3Sjbnf2exX3M5Lnv4tnFTLeL5zjDPt/FHT1I3ld31+3y3MW5n2Mu3011n/mZu0x3jzNTzfCupeLeZVd2cT6TqeR9lY+zam+eZrCHbHH9nj+X7ybOqr15msEeksWtMnk2ylR78zSDPZb+OetyZmUX56uZPBtlqr15msEeS8U1eZbP1S7Pjc9mMu63MqO76+Z4z6W4zh9m9EB3mW4X576rzvnLqox9UZ6PMt0u6+Z4T1ncnSgFZlBcSKK4kPTnigvMoLiQRHEhieJC0Hl+AnLb5rRDdFIBAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[companyRole]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <ui:BuildDataTable DataTable="{x:Null}" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Column1&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Column2&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Column1&gt;text&lt;/Column1&gt;&#xD;&#xA;    &lt;Column2&gt;1&lt;/Column2&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH3wUcFjkjSdtABwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJZSURBVEhL7ZbNb9JwGMc9LEoLPynQMrPJyfuSGQ1/gHFuNKKXZdH9DR486nT/wLTiX2C8Gu+e1ADjxUWCQBkQylsBx4tTNFmKdr48oxf4tWsLk4ux+ZzK830+pf097e/UPmKmCi74hJgOYlo2em9MIAJBiGMNRwTwcxsxNWq2MOvh3Z6M25M2AZRBMUQgCHHMgQtEwlG+6vsajvRi8V7UNLH4t+1IeYmFuJ6gixjBQuVXb/+U5d9jHr9kOb+2DnFoMtwTFxQs9sxEAojwa+sQNxakV29NV5CZSDDWLdIQNILhxL0H/Mbmrha5jc3S/Yf5hcui1WnwkI8TZLe4VzPkzpmzCS2SFnvWYq9aXS39ZaojKD0OvCcoEWYKMR9VwElobTxoOoLioyfvTqMy6aiTTnEUONMknW0bjd19BbMC4dnz4MKlD4vejIrsRW9x0Vt1e+BtMfk/kA8OpHa73+58V9Pp9MW6sMTWVGMMmBXoH4eSxLM3S6o1Cvw1QYq9UZyqIH1CAZyRJUmTQ6n/40svt+KvECcQCC9evr7Gxlf8Oz6chM/PL18vnL/QtLkmf8i5Le7NjDU1mFiMnIUSCKphc8GgDXdTMCsoc4EkQTXR0XdRE7h29eUDZgUVLpAiKHgfDNeb4b/AkH9PAOO+q7WrqHFPeYKCfdVwvRlwQZVwFK4s778NdkPbnVAY6IbCnyPRyp27RdIB63243gwjApiUPUQX7e4kPR+j5yIDovRcgp7PO841jvlm6TMiAKBFC9HQq3aES6E+2N4q44rVG4ILFJS5x8BqTIGYP0HPVXjjInEIAAAAAElFTkSuQmCC" InformativeScreenshot="0d8beda04b2803c49fd2c2deb9ae440e.png" Selector="&lt;html app='chrome.exe' title='Generate a Random Name - Male, Finnish, Finland - Fake Name Generator' /&gt;" Url="https://www.fakenamegenerator.com/gen-male-fi-fi.php" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
